@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #19181f;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .btn {
+  background: linear-gradient(to bottom right, #d681fc, #bd2ffd);
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+.navbar .navbar-brand h3 {
+  font-weight: 800;
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    #fc87da 0%,
+    #cb94ef 36%,
+    #41e0e7 70%,
+    #28f6c2 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #d681fc !important;
+}
+
+.navbar-toggler-icon {
+  color: #d681fc !important;
+}
+
+.hero {
+  max-height: 80vh;
+  position: relative;
+}
+
+.hero-content {
+  padding-top: 90px;
+  height: 80vh;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 64px;
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    #fc87da 0%,
+    #cb94ef 36%,
+    #41e0e7 70%,
+    #28f6c2 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero h1 span {
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #dad6d6;
+}
+
+.hero-img {
+  position: absolute;
+  transform: translate(10px, -25px);
+  height: 460px;
+}
+
+.btn-donwload button {
+  background: linear-gradient(to bottom right, #eac5fc, #b52df5);
+  color: #fff;
+  font-size: 16px;
+  padding: 14px 24px;
+  border-radius: 40px;
+  border: none;
+}
+
+.btn-donwload button:hover {
+  transform: scale(1.02);
+  color: #fff;
+}
+
+.hero-content .elip {
+  position: absolute;
+  top: 180px;
+  right: 100px;
+  height: 60px;
+  width: 60px;
+}
+
+.img-box .mail-1 img {
+  position: absolute;
+  transform: translate(260px, 65px);
+  width: 100px;
+  z-index: -100;
+}
+
+.img-box:hover .mail-1 img {
+  transform: translate(40px, 65px);
+  transition: 1.2s;
+}
+
+.img-box .mail-2 img {
+  position: absolute;
+  transform: translate(-40px, 265px);
+  width: 130px;
+}
+
+.img-box:hover .mail-2 img {
+  transform: translate(300px, 265px);
+  transition: 1.2s;
+}
+
+.brands h3,
+.project h3,
+.skill-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    #fc87da 0%,
+    #cb94ef 20%,
+    #41e0e7 50%,
+    #28f6c2 70%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.brands img {
+  width: 180px;
+}
+
+.social-icon a {
+  margin-right: 20px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.social-icon a:hover {
+  color: #d681fc;
+}
+
+/* .project h3 {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: transparent;
+    background-image: linear-gradient(
+        90deg,
+        #FC87DA 0%,
+        #28f6c2 36%);
+    -webkit-background-clip: text;
+    background-clip: text;
+} */
+
+.project img {
+  width: 100%;
+  height: 95%;
+}
+
+.elip-1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(252, 135, 218, 0.7);
+  border-radius: 50%;
+  filter: blur(50px);
+  -webkit-filter: blur(150px);
+  position: absolute;
+  top: 350px;
+  left: -200px;
+  z-index: -100;
+}
+
+.elip-2 {
+  position: absolute;
+  top: 700px;
+  right: -200px;
+  z-index: -100;
+}
+
+.elip-3 {
+  position: absolute;
+  top: 1050px;
+  left: -200px;
+  z-index: -100;
+}
+
+.elip-4 {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(203, 148, 239, 0.7);
+  border-radius: 50%;
+  filter: blur(80px);
+  -webkit-filter: blur(150px);
+  position: absolute;
+  top: 1400px;
+  right: -200px;
+  z-index: -100;
+}
+
+.skill-item-1,
+.skill-item-2,
+.skill-item-3 {
+  /* height: auto; */
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
